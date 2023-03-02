@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    height: 2rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #202c38;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navsection {
+    display: flex;
+    gap: 1rem;
+    background-color: inherit;
+    align-items: center;
+
+}
