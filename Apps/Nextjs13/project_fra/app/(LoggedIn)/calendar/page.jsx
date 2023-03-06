@@ -6,7 +6,7 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.calentest}>
                 <h1>Calendar</h1>
-                <br/>
+                <p className={styles.test}></p>
                 <Link href="https://www.google.com/">TEST</Link>
             </div>
         </main>

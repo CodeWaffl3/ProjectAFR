@@ -17,10 +17,12 @@ export default function RootLayout({ children }) {
                     <Link href="/documents">Documents</Link>
                 </div>
 
-                <div>
-                    <Link href="/profile"></Link>
+                <div className={styles.navsection}>
+                    <Link href="/profile">Profile</Link>
                 </div>
             </nav>
+            <div className={styles.content}>
+            </div>
             {children}
         </body>
         </html>
