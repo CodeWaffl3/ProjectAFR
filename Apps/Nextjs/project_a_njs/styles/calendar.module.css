@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calentest{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.test{
+    height: 1090px;
+    width:100%;
+}
