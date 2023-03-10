@@ -7,7 +7,6 @@ let IsLogged = false;
 export default function Home() {
   if (IsLogged === false) {
     return(
-        <main>
             <div className={style.credentials}>
                 <div className={style.login_container}>
                     <h1 className={style.title}>Project FRA</h1>
@@ -31,7 +30,6 @@ export default function Home() {
 
                 </div>
             </div>
-        </main>
     )
   }
   return (
