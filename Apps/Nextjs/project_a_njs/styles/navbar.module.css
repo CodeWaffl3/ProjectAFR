@@ -22,3 +22,11 @@
 .content{
     margin-top: var(--navbar-height);
 }
+
+.navicon {
+    background-color: white;
+    height: var(--navbar-height);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}

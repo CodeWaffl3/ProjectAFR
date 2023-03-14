@@ -6,18 +6,16 @@ export default function Layout({ children }) {
         <>
             <nav className={styles.navbar}>
                 <div className={styles.navsection}>
-                    <Link href="/">Home</Link>
-                    <Link href="/calendar">Calendar</Link>
-                    <Link href="/documents">Documents</Link>
+                    <Link className={styles.navicon} href="/">Home</Link>
+                    <Link className={styles.navicon} href="/calendar">Calendar</Link>
+                    <Link className={styles.navicon} href="/documents">Documents</Link>
                 </div>
 
                 <div className={styles.navsection}>
-                    <Link href="/profile">Profile</Link>
+                    <Link className={styles.navicon} href="/profile">Profile</Link>
                 </div>
             </nav>
-            <div className={styles.content}>
-            </div>
-            {children}
+                {children}
         </>
     )
 }

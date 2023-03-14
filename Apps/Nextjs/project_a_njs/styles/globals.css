@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 :root{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -17,7 +16,6 @@ root{
 
 body{
   margin: 0 0 0 0;
-
 }
 
 /*Check for*/
